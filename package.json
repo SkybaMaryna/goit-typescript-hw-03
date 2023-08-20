@@ -1,11 +1,17 @@
 {
   "name": "typescript-homework-module-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "typescript-homework",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
